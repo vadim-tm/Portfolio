@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;900&family=Roboto:wght@100;300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&family=Red+Hat+Display:wght@300;500;900&family=Roboto:wght@100;300;500;900&display=swap');
+
+html, body{
+    overflow-x: hidden;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    padding: 1rem;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000000;
+}
+  
+
+header .logo {
+    position: relative;
+    width: 40px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    background-image: url(img/Rectangle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header .logo span{
+    position:absolute;
+    top:0;
+    right: 27%;
+    z-index:1000000;
+}
+
+header .logo img{
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+header .nav_bar{
+    display: flex;
+    padding-left: 60px;
+}
+header .nav_bar .nav_item{
+    padding: 10px;
+}
+
+header .nav_bar a{
+    color:grey;
+    text-decoration: none;
+    font-family: Red Hat Display;
+}
+
+header .right, header .navbar-light .navbar-toggler{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px black;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+header .right i{
+    color: grey;
+}
+
+.content{
+    display: flex;
+    margin: 5rem;
+}
+.content .hello{
+    margin-top: 100px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #666666;
+}
+
+.content .hello h1{
+    color: black;
+}
+
+ .content .hello p{
+    width: 263px;
+    height: 32px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+
+.hello .button{
+    border: solid;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    background-color:#8643DC;
+    border-color: #8643DC;
+    color: white;
+}
+
+.container .content .photo img{
+    margin-left: 169px;
+}
+
+.Services{
+    margin-top: 100px;
+}
+.Services hr{
+    width: 50px;
+    height: 2px;
+    left: 165px;
+    top: 802px;
+}
+
+.Services p{
+    width: 68px;
+    height: 24px;
+    left: 165px;
+    top: 768px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+}
+
+.small-text{
+    margin: 33px 0 0 0;
+}
+.small-text span {
+    position: relative;
+    color: #8643DC;
+    font-family: Red Hat Display;
+    margin: 33px 0;
+}
+.small-text span:after {
+    position: absolute;
+    content: '';
+    bottom: -6px;
+    border-bottom: 2px solid #8643DC;;
+    width: 50%;
+    right: 50%;
+}
+
+.big-text{
+    width: 256px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+}
+
+.services-items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 62px;
+    text-align: center;
+    margin-top: 18px;
+    height: fit-content;
+    margin: 1rem 0;;
+}
+
+.services-items .services-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-items .services-item-header{
+    display: flex;
+}
+.services-item .services-item-header h3{
+    margin: 18px 12px;
+}
+.services-item p{
+    padding: 0 12px 14px 0;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #47444E;
+}
+
+.services-items .services-item .image{
+    display: flex;
+    background-image: url(img/Polygon-1-copy-2\ 1.png);
+    width: 62px;
+    height: 60.59px;
+    padding: 1rem 1.4rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text h3{
+    width: 228px;
+    height: 96px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    margin: 19px 0 0 0;
+}
+
+.text a{
+    width: 196px;
+    height: 32px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+
+.text{
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.text i {
+    color: #8643DC;
+}
+.portfolio-content-items{
+    display: flex;
+}
+
+.clients .clients-title h3{
+    width: 160px;
+    height: 96px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    margin: 25px 0 30px 0;
+}
+
+.inner-card1 {
+    box-shadow: 0 10px 40px #FFE7F0;
+    border: 1px solid #FFE7F0;
+    background: #FFF7FA;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+}
+
+.inner-card1 img{
+    margin: 15px;
+}
+.inner-card2 {
+    box-shadow: 0 10px 40px #CAFFE1;
+    background: #EDFFF5;
+    border: 1px solid #CAFFE1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+}
+
+.inner-card2 img{
+    margin: 15px;
+}
+.clients-card img{
+    width: 50px;
+    height: 50px;
+}
+.clients-card{
+    margin: 1rem 0;
+}
+
+.clients-skills p{
+    width: 67px;
+    height: 24px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.testimonials .testimonials-title h3{
+    width: 217px;
+    height: 96px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    margin:17px 0;
+}
+
+.testimonials-blocks .pic p{
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+color: #636066;
+padding: 15px;
+}
+
+.testimonials-content img{
+    border-radius: 10px;
+}
+.photo img{
+    padding: 15px;
+}
+
+.testimonials-blocks .name{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.photo img{
+    border-radius: 30px;
+}
+.picture p{
+    width: 107px;
+    height: 21px;
+    left: 355px;
+    top: 3626px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #8643DC;
+    margin: 10px 0;
+}
+.picture h5{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.blog-content h3{
+    width: 170px;
+    height: 96px;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    margin: 15px 0;;
+}
+
+.picture img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/*.cotact_me p{
+    width: 512px;
+    height: 156px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+color: #21232D;
+}*/
+
+.title{
+    margin: 15px 0;
+}
+
+.finish p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    color: #21232D;
+    margin: 10px 0;
+}
+
+.finish a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: lowercase;
+    color: #8643DC;
+}
+
+.form-input{
+    height: 3rem;
+    border: none;
+    border-bottom: 2px solid #DAD2E3;
+    margin: 10px 0;
+}
+
+.form .button .form-button{
+    width: 200px;
+    height: 60px;
+    background: #8643DC;
+    border-radius: 100px;
+    color: white;
+    margin: 16px 0;
+    border: none;
+}
+.rec1{
+    flex-direction: column;
+    background: linear-gradient(0deg, black, transparent) ,url(img/Rectangle\ 14.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: white;
+    padding: 1rem;
+    background-size: cover;
+}
+.rec2{
+    flex-direction: column;
+    background-image: linear-gradient(0deg, black, transparent), url(img/Rectangle\ 15.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: white;
+    padding: 1rem;
+    background-size: cover;
+}
+.clip .pictures{
+    align-items: center;
+
+}
+.clip .pictures i{
+    margin: 10px; 
+}
+
+.fa-arrow-right::before{
+    color: #8643DC;
+}
+
+footer h1{
+    text-align: center;
+}
+
+.fontawesome{
+    height: 50px;
+    width:50px;
+    background-image: url(img/Polygon-1-copy-2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.fontawesome i{
+    color: white;
+}
+.blog{
+    margin: 3rem 0 0 0;
+}
+footer h1{
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    
+    
+    header .container {
+        display: none;
+    } 
+    /*header .nav_bar{
+        display: none;
+    }*/
+    .content{
+        justify-content: center;
+    }
+    
+}
+
+@media (min-width: 769px) {
+    header .container .right{
+        display: none !important;
+    }
+    header .container .nav_bar{
+        justify-content: center;
+    }
+    header .navbar{
+        display: none;
+    } 
+}
+
+@media (max-width: 576px){
+    .blocks img{
+        display: none;
+    }
+}
+
+.portfolio img{
+    width: 100%;
+}
+
+@media(max-width: 1200px){
+    .clients-card{
+        display: flex;
+        justify-content: center;
+    }
+    .blog-picture{
+        height: 30rem;
+    }
+    .blog-content{
+        margin: 1rem 0;
+    }
+}
+
+@media(max-width: 320px){
+    .text a{
+        margin: 1rem 0;
+    }
+}
+
+@media(max-width: 576px){
+    .services-item-header{
+        justify-content: center;
+    }
+    .blog-text h3{
+        text-align: center;
+    }
+    .blog{
+        margin: 0 0;
+    }
+    
+}
+
+@media(max-width: 769px){
+    .services-items{
+        justify-content: center;
+    }
+    .blog-picture{
+        margin: 1rem 0;
+        width: 100%;
+    }
+}
+
+@media(max-width: 375px){
+    .form .button .form-button{
+        width: 155px;
+    }
+}
+
+@media(max-width: 992px){
+    .content .photo {
+        display: none;
+    }
+}
+
+header .container .right{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
